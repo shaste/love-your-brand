@@ -1,5 +1,10 @@
 /* default styles */
 
+:root {
+  --gutter-width: 40px;
+  --outer-margin: 80px;
+}
+
 @font-face {
   font-family: "Apercu";
   src: url(fonts/ApercuPro-Light.woff) format("woff");
@@ -28,6 +33,7 @@ h1 {
   text-transform: uppercase;
   color: white;
   font-weight: 100;
+  margin-top: 0;
 }
 
 h2 {
@@ -51,4 +57,10 @@ p {
 .cover-links {
   display: flex;
   justify-content: space-between;
+}
+
+.logo {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
 }
