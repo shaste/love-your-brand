@@ -59,9 +59,17 @@ p {
   justify-content: space-between;
 }
 
-.logo {
-  display: block;
-  height: 71px;
+.cover-title {
+  align-items: baseline;
+}
+
+.cover-title h1 {
+  display: flex;
+}
+
+.cover-logo {
+  display: flex;
+  height: 70px;
   margin-left: auto;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
