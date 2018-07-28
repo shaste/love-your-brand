@@ -1,9 +1,5 @@
 /* default styles */
 
-:root {
-  --gutter-width: 40px;
-  --outer-margin: 80px;
-}
 
 @font-face {
   font-family: "Apercu";
@@ -14,10 +10,9 @@
 @font-face {
   font-family: "Apercu";
   src: url(fonts/ApercuPro-Regular.woff) format("woff");
-  font-variant: ;
-  font-stretch: ;
+
   font-weight: 400;
-  font-style: ;
+
 }
 
 body {
@@ -28,12 +23,12 @@ body {
 }
 
 h1 {
+  margin-top: 0;
   font-size: 100px;
   letter-spacing: 10px;
   text-transform: uppercase;
   color: white;
   font-weight: 100;
-  margin-top: 0;
 }
 
 h2 {
@@ -42,13 +37,8 @@ h2 {
   font-weight: 400;
 }
 
-p {
-  font-size: 24px;
-  color: white;
-}
-
 .cover {
-  height: 800px;
+  height: 100vh;
   width: auto;
   padding: 40px;
   background-color: black;
@@ -57,6 +47,17 @@ p {
 .cover-links {
   display: flex;
   justify-content: space-between;
+}
+
+.cover-links a {
+  font-size: 24px;
+  line-height: 1.8;
+  color: white;
+  text-decoration: none;
+}
+
+.cover-links a:hover {
+  color: blueviolet
 }
 
 .cover-title {
